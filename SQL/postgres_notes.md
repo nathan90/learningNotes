@@ -1,0 +1,11 @@
+## PostGreSQL Streaming Replication
+- PostgreSQL physical replication allows you to replicate your entire database cluster to another server
+- Uses WAL to stay in sync (Write Ahead Logs). Those are constantly produced on a master that is in archive log mode and can be essentially be transferred to a replica to be replayed to keep up to date and in sync with the master.
+- Replicates everything, cannot replicate only certain databases and tables. If you want to do that, then it will be only logical replication as opposed to physical replication
+- Replica can allow reading of data and act as a **Hot standby** to replace the master
+- Replication can be synchronous. By default it is asynchronous, meaning the changes committed on the master, it is written to the write ahead logs and streamed to the replica and its updated and committed there. You can make it synchronous so that before a change is committed, it needs to have been updated on one or more replicas. Some caveats - need to have very good network connection between them and have them in close proximity when  doing sychronous replication
+- Replication can cascade ( Can have tiers of replication) eg: a master can replicate to a first tier replica and then another tier of replica can sync from tier one replica
+- Log shipping vs streaming 
+    - **Log shipping** is taking the WAL files and transferring them to the replica to be replayed
+    - **Streaming**: Here replicas connect to the master and those stream the changes over the network to keep them in sync with the master
+- All replicas must use the same major version.
