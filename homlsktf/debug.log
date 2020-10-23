@@ -1,0 +1,17 @@
+[1011/032804.723:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1013/192029.237:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/010315.666:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[1015/010315.675:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[1015/010315.676:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1015/010315.693:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1015/010315.694:ERROR:exception_snapshot_win.cc(100)] thread ID 5076 not found in process
+[1015/010315.694:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1015/010315.695:ERROR:exception_snapshot_win.cc(100)] thread ID 12580 not found in process
+[1015/010315.698:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1015/010315.698:ERROR:exception_snapshot_win.cc(100)] thread ID 9620 not found in process
+[1015/010315.703:ERROR:process_reader_win.cc(127)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1015/010315.703:ERROR:exception_snapshot_win.cc(100)] thread ID 17908 not found in process
+[1015/010316.284:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\vishw\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\429d9ce0-b80a-4e68-98b2-1693b1949a60: The system cannot find the path specified. (0x3)
+[1015/010316.308:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\vishw\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\279f7ec1-cb4b-479f-a0c8-9dba5bd4a7fd: The system cannot find the path specified. (0x3)
+[1015/010316.325:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\vishw\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\ff2782fc-da1e-43f9-95c1-6c27b0d7aa9d: The system cannot find the path specified. (0x3)
+[1015/010316.348:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\vishw\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\04f55620-32e6-45e9-8f65-e90d239c35f8: The system cannot find the path specified. (0x3)
